@@ -1,0 +1,58 @@
+@Article(time: 10) {
+    
+  @Intro(title: "Swift Básico") {
+      Intro
+  }
+  
+  
+  @ContentAndMedia(layout: "horizontal") {
+      
+      ## Why authenticate?
+        
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        
+        ```swift
+        struct SwiftUIView: View {
+            var body: some View {
+                Text("Hello, World!")
+            }
+        }
+
+        ```
+        
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+  }
+  
+  @Assessments {
+          @MultipleChoice {
+              What element did you use to add space around and between your views?
+
+              
+              
+              @Choice(isCorrect: false) {
+                  A state variable.
+
+
+                  @Justification(reaction: "Try again!") {
+                      Remember, it's something you used to arrange views vertically.
+                  }
+              }
+
+
+              @Choice(isCorrect: false) {
+                  A `VStack` with trailing padding.
+
+
+                  @Justification(reaction: "That's right!") {
+                      A `VStack` arranges views in a vertical line.
+                  }
+              }
+              
+          }  
+      }
+  
+  
+}

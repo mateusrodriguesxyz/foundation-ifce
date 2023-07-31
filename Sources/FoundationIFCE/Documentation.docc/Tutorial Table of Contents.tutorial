@@ -1,0 +1,18 @@
+@Tutorials(name: "Lorem Ipsum") {
+    @Intro(title: "Lorem Ipsum") {
+        Lorem Ipsum
+        
+        @Image(source: "aaaa", alt: "accessible description")
+    }
+    
+    @Chapter(name: "Chapter 1") {
+        
+        Lorem Ipsum
+        
+        @Image(source: "image", alt: "accessible description")
+                
+        @TutorialReference(tutorial: "doc:Tutorial1")
+    }
+    
+    
+}
